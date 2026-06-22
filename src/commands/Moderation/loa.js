@@ -13,9 +13,9 @@ import { createEmbed, successEmbed, errorEmbed } from '../../utils/embeds.js';
 import { logger } from '../../utils/logger.js';
 
 // 🛠️ CONFIGURATION: Replace these values with your server IDs
-const MANAGER_ROLE_ID = "123456789012345678";   // Role that can approve/deny requests
-const LOA_LOG_CHANNEL_ID = "123456789012345678"; // Channel where requests are sent
-const LOA_ROLE_ID = "123456789012345678";        // Role given to the user when APPROVED
+const MANAGER_ROLE_ID = "1328564530329944094";   // Role that can approve/deny requests
+const LOA_LOG_CHANNEL_ID = "1510447959592931468"; // Channel where requests are sent
+const LOA_ROLE_ID = "1510449050095194267";        // Role given to the user when APPROVED
 
 export default {
     data: new SlashCommandBuilder()
